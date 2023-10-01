@@ -1,0 +1,28 @@
+img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 33%;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+}
+.text .btn{
+    position: relative;
+    background-color: rgb(246, 120, 3);
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px; 
+    transition: 0.8sec;  
+}
+.btn:hover{
+    background-color: orangered;
+}
+.btn{
+    margin-left: 32%;
+}
